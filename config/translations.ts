@@ -8,6 +8,7 @@ export const translations = {
       chatOnWhatsApp: "Chat on WhatsApp",
       learnMore: "Learn more",
       bookThisService: "Book this service",
+      viewAllServices: "View All Services",
       goToContactPage: "Go to Contact Page",
       bookAnotherAppointment: "Book Another Appointment",
       submitting: "Submitting...",
@@ -19,6 +20,7 @@ export const translations = {
     nav: {
       home: "Home",
       about: "About",
+      services: "Services",
       contact: "Contact",
     },
 
@@ -242,6 +244,7 @@ export const translations = {
       chatOnWhatsApp: "হোয়াটসঅ্যাপে চ্যাট করুন",
       learnMore: "আরও জানুন",
       bookThisService: "এই সেবা বুক করুন",
+      viewAllServices: "সকল সেবা দেখুন",
       goToContactPage: "যোগাযোগ পাতায় যান",
       bookAnotherAppointment: "আরেকটি অ্যাপয়েন্টমেন্ট বুক করুন",
       submitting: "জমা দেওয়া হচ্ছে...",
@@ -253,6 +256,7 @@ export const translations = {
     nav: {
       home: "হোম",
       about: "আমাদের সম্পর্কে",
+      services: "সেবাসমূহ",
       contact: "যোগাযোগ",
     },
 

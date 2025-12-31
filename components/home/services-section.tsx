@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button"
 import { SectionHeading } from "@/components/section-heading"
 import { useLanguage } from "@/contexts/language-context"
 
+// Emoji mapping for each service
+const serviceEmojis = ["🦴", "🏥", "⚽", "🧠", "👴", "🪑"]
+
 export function ServicesSection() {
   const { t } = useLanguage()
 
@@ -21,6 +24,7 @@ export function ServicesSection() {
               className="group border-border/50 bg-card transition-all duration-300 hover:border-primary/30 hover:shadow-lg"
             >
               <CardHeader className="pb-3">
+                <div className="mb-2 text-4xl">{serviceEmojis[index]}</div>
                 <CardTitle className="text-lg text-foreground">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -46,6 +50,16 @@ export function ServicesSection() {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* View All Services Button */}
+        <div className="mt-12 flex justify-center">
+          <Button asChild size="lg" className="gap-2">
+            <Link href="/services">
+              {t.ui.viewAllServices}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
         </div>
       </div>
     </section>

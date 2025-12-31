@@ -33,11 +33,11 @@ export function Footer() {
             <p className="text-xs italic text-muted-foreground">"{siteConfig.tagline}"</p>
 
             <p>
-              <a href="https://www.facebook.com/profile.php?id=61577117213857" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#4481e3] text-white hover:bg-[#4481e3]/90 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61577117213857" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="font-medium">Facebook Page</span>
               </a>
-              </p>
+            </p>
           </div>
 
           {/* Contact */}
@@ -65,7 +65,7 @@ export function Footer() {
                 </Button>
               </li>
 
-          
+
             </ul>
           </div>
 
