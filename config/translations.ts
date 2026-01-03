@@ -103,6 +103,22 @@ export const translations = {
           title: "Posture Correction & Ergonomic Advice",
           description: ["Workstation assessment", "Posture training", "Corrective exercises"],
         },
+        {
+          title: "Hijama Therapy (Wet Cupping)",
+          description: [
+            "Traditional wet cupping therapy",
+            "Improve blood circulation",
+            "Relieve pain and promote natural healing",
+          ],
+        },
+        {
+          title: "Acupuncture Therapy",
+          description: [
+            "Evidence-based acupuncture treatment",
+            "Reduce pain and improve nerve function",
+            "Restore energy balance",
+          ],
+        },
       ],
     },
 
@@ -226,6 +242,8 @@ export const translations = {
         postSurgery: "Post-Surgery Rehabilitation",
         neurological: "Neurological Condition",
         posture: "Posture Correction",
+        hijama: "Hijama Therapy (Wet Cupping)",
+        acupuncture: "Acupuncture Therapy",
         other: "Other",
       },
     },
@@ -325,6 +343,22 @@ export const translations = {
         {
           title: "ভঙ্গি সংশোধন ও এরগোনমিক পরামর্শ",
           description: ["ওয়ার্কস্টেশন মূল্যায়ন", "ভঙ্গি প্রশিক্ষণ", "সংশোধনমূলক ব্যায়াম"],
+        },
+        {
+          title: "হিজামা থেরাপি (ওয়েট কাপিং)",
+          description: [
+            "ঐতিহ্যবাহী ওয়েট কাপিং থেরাপি",
+            "রক্ত সঞ্চালন উন্নত করা",
+            "ব্যথা উপশম এবং প্রাকৃতিক নিরাময় প্রচার",
+          ],
+        },
+        {
+          title: "আকুপাংচার থেরাপি",
+          description: [
+            "প্রমাণ-ভিত্তিক আকুপাংচার চিকিৎসা",
+            "ব্যথা কমানো এবং স্নায়ুর কার্যকারিতা উন্নত করা",
+            "শক্তির ভারসাম্য পুনরুদ্ধার করা",
+          ],
         },
       ],
     },
@@ -442,6 +476,8 @@ export const translations = {
         postSurgery: "অস্ত্রোপচার পরবর্তী পুনর্বাসন",
         neurological: "স্নায়বিক অবস্থা",
         posture: "ভঙ্গি সংশোধন",
+        hijama: "হিজামা থেরাপি (ওয়েট কাপিং)",
+        acupuncture: "আকুপাংচার থেরাপি",
         other: "অন্যান্য",
       },
     },

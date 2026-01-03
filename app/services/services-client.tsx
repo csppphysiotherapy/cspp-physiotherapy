@@ -40,6 +40,16 @@ const serviceData = [
         image: "/services/Posture Correction & Ergonomic Advice.jpg",
         alt: "Posture Correction & Ergonomic Advice",
     },
+    {
+        emoji: "🩸",
+        image: "/services/Hijama Therapy (Wet Cupping).jpg",
+        alt: "Hijama Therapy (Wet Cupping)",
+    },
+    {
+        emoji: "📍",
+        image: "/services/Acupuncture Therapy.jpg",
+        alt: "Acupuncture Therapy",
+    },
 ]
 
 export function ServicesClient() {
