@@ -53,14 +53,7 @@ export const siteConfig = {
         instagram: "https://www.instagram.com/mahamudparadise?utm_source=qr&igsh=MXQ4b2oydWlucmR4MQ==",
       },
     },
-    {
-      name: "Mrs. Tanjila",
-      title: "Nutrition Expert",
-      fullName: "Mrs. Tanjila",
-      image: "/Mrs. Tanjila.jpeg",
-      qualifications: ["BSc in PHN", "MSc in NFS", "PGT in Clinical Nutrition & Dietetics"],
-      shortBio: "Mrs. Tanjila is a dedicated Nutrition Expert specializing in Clinical Nutrition & Dietetics.",
-    },
+
   ],
 
   contact: {
